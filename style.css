@@ -81,7 +81,7 @@
 
 /* When menu is open */
 .nav-links.active {
-  max-height: 500px; /* Enough height to show all links */
+  max-height: 500px; 
   display: flex;
   flex-direction: column;
 }
@@ -89,7 +89,6 @@
 }
 
 
-/* Push content below navbar */
 .hero-section {
   margin-top: 80px;
 }
@@ -109,7 +108,7 @@
   
   
   .hero-section {
-    background-image: url('homepage.jpg'); /* Replace with your pool image path */
+    background-image: url('/The-CoolPool/homepage.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -118,7 +117,7 @@
   }
   
   .overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
     height: 100%;
     display: flex;
     justify-content: center;
@@ -437,11 +436,6 @@ footer {
 }
 
 
-/* ================================
-   Media Queries for Responsiveness
-   ================================ */
-
-/* Additional Responsive Spacing */
 @media screen and (max-width: 768px) {
   section {
     margin: 80px 20px 40px;
