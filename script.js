@@ -48,11 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const day = card.getAttribute("data-day");
 
       if (day === "monday-thursday") {
-        showPopup("We are open Monday to Thursday from 9:00 AM to 8:00 PM.");
+        showPopup("We are open Monday to Thursday from 9:00 AM to 11:00 PM.");
       } else if (day === "friday") {
-        showPopup("We are open on friday from 2:00 PM to 8:00 PM.Open to Womens only.");
+        showPopup("We are open on friday from 2:00 PM to 11:00 PM.Open to Womens only.");
       } else if (day === "saturday-sunday") {
-        showPopup("We are open Saturday to Sunday from 9:00 AM to 8:00 PM.");
+        showPopup("We are open Saturday to Sunday from 9:00 AM to 11:00 PM.");
       }
     });
   });
