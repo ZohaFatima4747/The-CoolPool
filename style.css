@@ -350,6 +350,10 @@
   text-align: center;
 }
 
+ .location-section p{
+     margin-bottom:20px;
+ }
+     
 .location-section h2 {
   font-size: 36px;
   color: #333;
