@@ -300,9 +300,9 @@
   color: #02bbd4;
 }
 
-.timing-card h4{
- color: #098798;
- margin-bottom: 5px;
+.timing-card h1{
+  color: #080808;
+ margin-bottom: 12px;
 }
 
 .timing-card p {
